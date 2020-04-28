@@ -16,7 +16,7 @@ RUN apt-get update -q && apt-get install -qy \
     sudo \
     zip \
     unzip \
-    openjdk-8-jre \
+    openjdk-8-jre-headless \
     && rm -rf /var/lib/apt/lists/*
 RUN wget http://www.multicraft.org/download/linux64 -O /tmp/multicraft.tar.gz && \
     tar xvzf /tmp/multicraft.tar.gz -C /tmp && \
