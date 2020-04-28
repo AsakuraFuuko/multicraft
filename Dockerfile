@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 RUN usermod -u 99 nobody
 RUN usermod -g 100 nobody
